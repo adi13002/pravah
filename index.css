@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Inter&family=Rubik&display=swap');
+/*
+font-family: 'Aboreto', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  color: #FFF;
+  /* text-align: center; */
+}
+header{
+    background: rgb(6,6,6);
+    height: 500px;
+    width: 100%;
+background-image: linear-gradient(90deg, rgba(6,6,6,1) 0%, rgba(173,231,223,1) 35%, rgba(177,208,214,1) 100%);
+background-image: url(images/karan-kartikeya-iRYSaE-bN_8-unsplash.jpg);
+background-size: cover;
+
+}
+nav{
+    /* background-color: #6b4ae4; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px 30px;
+    /* margin: 10px 20px 15px; */
+}
+nav ul{
+    list-style: none;
+    /* display: inline; */
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0 5px;
+    color: #fff;
+    /* color: orangered; */
+    font-size: 1.5rem;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+nav ul li{
+    display: inline;
+    align-items: center;
+}
+.logo{
+    /* color: orangered; */
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.heading{
+    
+    text-align: center;
+    color: #fff;
+}
+.text{
+    /* color: orangered;
+     */
+     /* color: #bef264; */
+     font-weight: 700;
+letter-spacing: -3;
+    margin: 50px auto 0;
+    font-family: serif;
+    line-height: 1.2;
+}
+.h1-text{
+    /* color: orangered; */
+    letter-spacing: -2px;
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px 2px gray;
+}
+.h2-text{
+    font-size: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about{
+    /* margin-top: 70px; */
+    background-image: url(images/skit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: blue; */
+    color: #fff;
+    padding: 60px 30px;
+}
+h1{
+    text-align: center;
+    /* font-family: 'Aboreto', cursive; */
+    font-family: serif;
+    margin: 20px 0;
+}
+h2{
+    font-family: serif;
+    /* font-family: 'Aboreto', cursive; */
+    font-size: 3 rem;
+    /* width: 90%; */
+}
+
+.skit , .pravah{
+    margin: 20px 0 40px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.explain{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.8;
+    font-size: 1.2rem;
+}.carousel {
+    /* overflow: hidden; */
+    background-color: black;
+    padding: 50px;
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+    /* padding: 100px; */
+  }
+  
+  .carousel .carousel__item,
+  .carousel .carousel__item--hidden {
+    display: none;
+  }
+  
+  .carousel .carousel__item img {
+    box-shadow:  1px 1px 8px 2px #6c6464;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .carousel .carousel__item--visible {
+    display: block;
+    /* animation: fadeVisibility 0.5s; */
+    animation:  0.7s;
+  }
+  
+  .carousel .carousel__actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel .carousel__actions button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .carousel .carousel__actions button#carousel__button--prev {
+    margin-left: 20px;
+  }
+  
+  .carousel .carousel__actions button#carousel__button--next {
+    margin-right:110px;
+  }
+  
+  @keyframes fadeVisibility {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }
+  .gallery{
+    background-color: black;
+  }
+  .tkt{
+    background-color: #25b62c;
+  }
+  .tkt h1{
+    color: #fff;
+    padding:  30px 0  5px;
+    font-size: 3rem;
+    font-family: serif;
+    letter-spacing: -1px;
+    
+  }
+  .tkt-h2{
+    text-align: center;
+    color: #fff;
+    /* padding:  1px 0  20px; */
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+    font-family: serif;
+    letter-spacing: -1px;
+
+  }
+  .tkt-content{
+    display: flex;
+  }
+  .tkt-tkt{
+    /* text-align: center; */
+    margin: 100px auto;
+  }
+  .tkt-tkt p{
+    color: #fff;
+    margin: 20px 0 10px -70px;
+    font-size: 2rem;
+  }
+  .tkt-tkt button a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .tkt-tkt button{
+    padding: 15px 50px;
+    border: none;
+    outline: none;
+    border-radius: 42px;
+    background-color: #09410b;
+  }
+  .ticket{
+    /* background-color: #59ca5d;
+     */
+     background-image: url(images/samuel-regan-asante-7MyzSlrUsVk-unsplash.jpg);
+     background-repeat: no-repeat;
+background-color: black;
+     background-size: 1400px 350px
+  }
+  .ticket-section{
+    margin: 250px auto;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .card{
+    /* position: absolute; */
+    margin: 40px 30px;
+    box-shadow: 2px 2px 2px white;
+  }
+  
+.card-img-top{
+  height: 200px;
+  width: 200px;
+  margin: 10px auto;
+  /* background-color: #6c6464; */
+}
+.card-body{
+  background-color: rgb(83, 83, 201);
+  color: #fff;
+}
+.tkt-btn{
+  position: relative;
+  border: none;
+  outline: none;
+  color: rgb(83, 83, 201) ;
+  border-radius: 20px;
+  padding: 10px 6px;
+  /* margin: 0 auto; */
+  right: 0;
+  top: 20px;
+  left: 0;
+  bottom: 0;
+  
+  margin-left: 50px;
+  
+}
+
+.bronze{
+  height: 350px;
+}
+.gold{
+  /* width: 252px;
+  height: 402px; */
+  box-shadow: 2px 2px 2px white;
+  
+}
+.gold .tkt-btn{
+  /* bottom: 10px; */
+  top: 2px;
+}
+.tkt-card{
+  display: flex;
+  margin: 10px auto;
+}
+.tkt-txt{
+  color: #FFF;
+  text-align: center;
+  margin-left: 500px;
+}
+.events{
+  margin-top: 50px;
+  background-color: #25b62c;
+  width: 100%;
+  height: 500px;
+  padding: 30px 0;
+}
+.p-txt{
+  text-align: center;
+}
+.days{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+ 
+}
+.day h3{
+  color: #277c2a;
+  /* margin-bottom: 20px; */
+}
+.day{
+  /* margin: 50px 0 0 0 0; */
+  padding: 30px 20px ;
+  background-color: #FFF;
+  color:#25b62c;
+  border-radius: 20px;
+  text-align: center;
+}
+.know{
+  margin-top: 10px;
+  border: none;
+  background-color: #25b62c;
+  color: #fff;
+  padding: 9px 10px;
+  border-radius: 15px;
+}
+footer{
+  background-color: #25b62c;
+  margin-top: 100px;
+  padding: 20px 10px;
+}
+
+footer h2{
+  color: #09410b;
+}
+.sponsors , .team , .student{
+  font-size: 1.1rem;
+  padding: 0 10px;
+  /* font-family: intern; */
+  
+font-family: 'Inter', sans-serif;
+  padding: 10px 5px;
+  /* list-style: ; */
+}
+footer li{
+  list-style: none;
+ }
+ .f-content{
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px 10px; */
+  gap: 20px;
+  text-align: center;
+ }
+ 
+footer .icon{
+  padding: 5px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 0 auto;
+}
+footer .icon:hover{
+  color: #fff;
+  padding: 0 10px;
+  font-size: 2rem;
+}
